@@ -1,0 +1,62 @@
+
+.input{
+    background-image: url('https://cdn.pixabay.com/photo/2017/01/13/01/22/magnifying-glass-1976105__340.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 19px 19px;
+    background-position-x: 15px;
+    padding: 10px 45px;
+    min-width: 514px;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 22px;
+    margin-top: 15px;
+    z-index: 3px;
+}
+
+
+.logoAndInput{
+    margin-top: 96px;
+}
+
+.input:hover{
+    background-color: #fff;
+    box-shadow:0 1px 6px rgba(32,33,36,.28);
+    border-color: rgba(223,225,229,0)
+}
+
+.input:focus{
+    outline: none;
+}
+
+.google_logo{
+    padding-top: 10px !important;
+    height: 92px;
+    width: auto;
+}
+
+.buttons button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    cursor: pointer;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 27px 4px;
+    min-width: 54px;
+    padding: 11px 18px;
+    text-align: center;
+}
+
+.buttons button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,.1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.buttons button:focus{
+    outline-color: rgb(6, 66, 177);
+    color: blue;
+}

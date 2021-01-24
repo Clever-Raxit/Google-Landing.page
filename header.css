@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    font-size: small;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header a{
+    color: black;
+    text-decoration: none;
+}
+.header a:hover{
+    text-decoration: underline;
+}
+
+.header li{
+    list-style: none;
+}
+
+.two_images ul{
+   display: flex; 
+}
+
+.more_apps_icon{
+    height: 25px;
+    width: 25px;
+}
+
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+}
+
+.avatar:hover {
+    border: 0px solid red;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left ul{
+    display: flex;
+}
+
+.header_left ul li{
+    margin: 20px;
+}
+
+.header_right ul li{
+    margin: 20px;
+}
+
+.header_right ul{
+    align-items: center;
+    display: flex;
+}
+
+.header_right {
+    display: flex;
+}
